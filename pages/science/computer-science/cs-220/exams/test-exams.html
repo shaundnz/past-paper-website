@@ -1,13 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="../../../../../styles/exam-styles.css">
+    <script type="text/javascript" src="../../../../../script/responseScript.js"> </script>
 </head>
-<body>
-<a href="../cs220-home.html">back</a>
-<iframe class="examframe" src="COMPSCI_220_Semester2_2019.pdf" width="50%" height="100%"></iframe>
 
+<body>
+    <center><a href="../cs220-home.html">BACK</a></center>
+    <div class="split left">
+
+        <iframe class="examframe" src="COMPSCI_220_Semester2_2019.pdf" width="100%" height="100%"></iframe>
+    </div>
+
+    <div class="split right">
+
+
+        <form>
+            <table cellpadding="5" border="0">
+                <tr>
+                    <td>Q1.</td>
+                    <td><input type="radio" name="Q1" value="A" id="1A">A</td>
+                    <td><input type="radio" name="Q1" value="B" id="1B">B</td>
+                    <td><input type="radio" name="Q1" value="C" id="1C">C</td>
+                    <td><input type="radio" name="Q1" value="D" id="1D">D</td>
+                    <td><input type="radio" name="Q1" value="E" id="1E">E</td>
+                    <td><input type="radio" name="Q1" value="F" id="1F">F</td>
+                    <td><button type="button" class="submitBtn" id="submit_1" onclick="submit(this.id)">Submit</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="8" class="responseText" id="reponse_1"></td>
+                </tr>
+            </table>
+
+            <table cellpadding="5" border="0">
+                <tr>
+                    <td>Q2.</td>
+                    <td><input type="radio" name="Q2" value="A" id="2A">A</td>
+                    <td><input type="radio" name="Q2" value="B" id="2B">B</td>
+                    <td><input type="radio" name="Q2" value="C" id="2C">C</td>
+                    <td><input type="radio" name="Q2" value="D" id="2D">D</td>
+                    <td><input type="radio" name="Q2" value="E" id="2E">E</td>
+                    <td><input type="radio" name="Q2" value="F" id="2F">F</td>
+                    <td><button type="button" class="submitBtn" id="submit_2" onclick="submit(this.id)">Submit</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="8" class="responseText" id="reponse_2"></td>
+                </tr>
+            </table>
+
+            <table cellpadding="5" border="0">
+                <tr>
+                    <td>Q3.</td>
+                    <td><input type="radio" name="Q3" value="A" id="3A">A</td>
+                    <td><input type="radio" name="Q3" value="B" id="3B">B</td>
+                    <td><input type="radio" name="Q3" value="C" id="3C">C</td>
+                    <td><input type="radio" name="Q3" value="D" id="3D">D</td>
+                    <td><input type="radio" name="Q3" value="E" id="3E">E</td>
+                    <td><input type="radio" name="Q3" value="F" id="3F">F</td>
+                    <td><button type="button" class="submitBtn" id="submit_3" onclick="submit()">Submit</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="8" class="responseText" id="reponse_3"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    
 </body>
+
 </html>
