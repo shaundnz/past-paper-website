@@ -1,12 +1,7 @@
-var ans;
+var id;
 
 function submit(btnId) {
-    console.log("yeet")
-    alert("Yeet");
-    document.getElementById("reponse_1")
-}
-
-function submit(){
-    console.log("yellow")
     
+    alert(btnId);
+    document.getElementById("reponse_1")
 }
